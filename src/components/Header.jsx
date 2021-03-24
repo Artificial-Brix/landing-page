@@ -13,11 +13,11 @@ const useStyles = makeStyles({
 		color: "white",
 	},
 	btn: {
-		background: "yellow",
+		background: "#ffff00",
 		fontWeight: "bold",
 		marginRight: "20px",
 		"&:hover": {
-			background: "cyan",
+			background: "#9c9c00",
 		},
 	},
 	typo: {
@@ -28,7 +28,7 @@ const useStyles = makeStyles({
 		height: "100vh",
 	},
 	menu: {
-		color: "#FFFFFF",
+		color: "#ffffff",
 		fontWeight: "bold",
 		padding: "5px 20px 5px 20px",
 		marginTop: "20px",
@@ -81,10 +81,10 @@ const Header = () => {
 						future era a better place.
 					</Typography>
 					<Grid>
-						<Button variant="contained" className={classes.btn}>
+						<Button variant="contained" disableElevation className={classes.btn}>
 							PRODUCTS DEMO
 						</Button>
-						<Button variant="contained" className={classes.btn}>
+						<Button variant="contained" disableElevation className={classes.btn}>
 							SEE BLOGS
 						</Button>
 					</Grid>
