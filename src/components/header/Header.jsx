@@ -1,5 +1,5 @@
 import { Button, Grid, makeStyles, Typography } from "@material-ui/core";
-import handImg from "../assets/hand.svg";
+import handImg from "../../assets/hand.svg";
 
 const useStyles = makeStyles({
 	header: {
@@ -13,11 +13,13 @@ const useStyles = makeStyles({
 		color: "white",
 	},
 	btn: {
-		background: "#ffff00",
+		background: "#e6e600",
 		fontWeight: "bold",
-		marginRight: "20px",
+		marginRight: "25px",
+		padding: "10px 15px",
+		borderRadius: "10px",
 		"&:hover": {
-			background: "#9c9c00",
+			background: "#00ffff",
 		},
 	},
 	typo: {
