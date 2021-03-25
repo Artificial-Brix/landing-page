@@ -1,9 +1,9 @@
 import { Button, Grid, makeStyles, Typography } from "@material-ui/core";
-import handImg from "../../assets/hand.svg";
+import handImg from "../../assets/section 2 hand.svg";
 
 const useStyles = makeStyles({
 	header: {
-		background: "#111011",
+		background: "#111011"
 	},
 	headerRight: {
 		padding: "15px",
@@ -29,12 +29,6 @@ const useStyles = makeStyles({
 	img: {
 		height: "100vh",
 	},
-	menu: {
-		color: "#ffffff",
-		fontWeight: "bold",
-		padding: "5px 20px 5px 20px",
-		marginTop: "20px",
-	},
 	btnGrp: {
 		marginRight: "25px",
 	},
@@ -44,32 +38,12 @@ const Header = () => {
 	const classes = useStyles();
 
 	return (
-		<Grid container className={classes.header}>
+		<Grid container className={classes.header}> 
 			<Grid item md={6}>
 				<img src={handImg} alt="" className={classes.img} />
 			</Grid>
 			<Grid item md={6} container>
 				<Grid item container justify="flex-end" className={classes.btnGrp}>
-					<Grid>
-						<Button disableElevation className={classes.menu}>
-							Services
-						</Button>
-					</Grid>
-					<Grid>
-						<Button disableElevation className={classes.menu}>
-							Products
-						</Button>
-					</Grid>
-					<Grid>
-						<Button disableElevation className={classes.menu}>
-							About
-						</Button>
-					</Grid>
-					<Grid>
-						<Button disableElevation className={classes.menu}>
-							Careers
-						</Button>
-					</Grid>
 				</Grid>
 				<Grid item className={classes.headerRight} container direction="column" justify="center">
 					<Typography variant="h5" component="h2" className={classes.text} gutterBottom>
@@ -87,7 +61,7 @@ const Header = () => {
 							PRODUCTS DEMO
 						</Button>
 						<Button variant="contained" disableElevation className={classes.btn}>
-							SEE BLOGS
+							SEE BLOGS 
 						</Button>
 					</Grid>
 				</Grid>
