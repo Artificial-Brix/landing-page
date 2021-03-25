@@ -1,12 +1,15 @@
-import "./App.css";
-import Header from "./components/header/Header";
+import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import Slider from './components/Slider/Slider';
 
 function App() {
-	return (
-		<>
-			<Header />
-		</>
-	);
+  return (
+    <div className="app">
+      <Slider /> 
+      <NavBar /> 
+      <Header />
+    </div>
+  );
 }
 
 export default App;
