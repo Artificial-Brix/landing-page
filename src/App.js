@@ -7,6 +7,8 @@ function App() {
     <div className="app">
       <Slider /> 
       <NavBar /> 
+      <header className="App-header">      
+      </header>
       <Header />
     </div>
   );
