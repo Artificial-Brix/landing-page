@@ -1,0 +1,22 @@
+.main_header {
+  position: relative;
+  max-width: 100%;
+  min-height: 100vh;
+  background-image: url('../../assets/Section\ 1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main_header_heading {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #fff;
+  font-size: 3.5rem;
+}
+@media (max-width: 768px) {
+  .main_header_heading {
+    font-size: 3rem;
+    left: 20%;
+  }  
+}
