@@ -1,14 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import Slider from './components/Slider/Slider';
 import Header from "./components/header/Header";
 import TeamMembers from './components/TeamMembers/TeamMembers';
+import MainHeader from './components/MainHeader/MainHeader';
 
 function App() {
   return (
     <div className="app">
-      <Slider />
-      <NavBar />
+      <MainHeader /> 
       <Header />
       <TeamMembers />
     </div>

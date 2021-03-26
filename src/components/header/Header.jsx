@@ -3,7 +3,8 @@ import handImg from "../../assets/section 2 hand.svg";
 
 const useStyles = makeStyles({
 	header: {
-		background: "#111011"
+		background: "#111011",
+		minHeight: '100vh'
 	},
 	headerRight: {
 		padding: "15px",
