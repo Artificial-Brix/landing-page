@@ -1,18 +1,16 @@
-import "./App.css";
+import './App.css';
 import Header from "./components/header/Header";
-import NavBar from "./components/NavBar/NavBar";
-import Review from "./components/review/Review";
-import Slider from "./components/Slider/Slider";
+import TeamMembers from './components/TeamMembers/TeamMembers';
+import MainHeader from './components/MainHeader/MainHeader';
 
 function App() {
-	return (
-		<div className="app">
-			<Slider />
-			<NavBar />
-			<Header />
-			<Review />
-		</div>
-	);
+  return (
+    <div className="app">
+      <MainHeader /> 
+      <Header />
+      <TeamMembers />
+    </div>
+  );
 }
 
 export default App;
