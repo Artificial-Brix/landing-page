@@ -1,0 +1,21 @@
+
+
+.primaryButton{
+    border: none;
+    display: flex;
+    margin-top: 10px;
+    padding: 8px 0px;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+    width: 100%;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.primaryButton:hover{
+    background-color: rgb(3, 75, 75);
+}
