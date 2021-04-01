@@ -13,10 +13,10 @@ function Footer() {
         <Grid justify="center" container>
           <Grid lg={3} md={3} sm={6} container justify="space-around">
             <ul>
-              <h3>dihan abir</h3>
-              <li>dihan abir</li>
-              <li>dihan abir</li>
-              <li>dihan abir</li>
+              <h3>Quick Links</h3>
+              <li>Services</li>
+              <li>Products</li>
+              <li>About</li>
             </ul>
           </Grid>
           <Grid
@@ -29,18 +29,18 @@ function Footer() {
             justify="space-around"
           >
             <ul>
-              <h3>nahid abir</h3>
-              <li>dihan abir</li>
-              <li>nahid abir</li>
-              <li>dihan abir</li>
+              <h3></h3>
+              <li>BLOGS</li>
+              <li>CAREERS</li>
+              <li>PRIVACY POLICY</li>
             </ul>
           </Grid>
           <Grid lg={3} md={3} sm={6} container justify="space-around">
             <ul>
-              <h3>dihan abir</h3>
-              <li>dihan abir</li>
-              <li>dihan abir</li>
-              <li>dihan abir</li>
+              <h3>Contacts:</h3>
+              <li>artificialbrix@gmail.com</li>
+              <li>Name</li>
+              <li>Phone No</li>
             </ul>
           </Grid>
           <Grid lg={1} md={1} sm={6} container justify="space-around">
