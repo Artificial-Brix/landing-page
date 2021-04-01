@@ -51,13 +51,15 @@ export default function Offersection() {
 
         <Grid container spacing={3}>
           {datas.map((data) => (
-            <Grid item lg={4} md={4} sm={6} xs={12}>
+            <Grid className="grid-section" item lg={4} md={4} sm={6} xs={12}>
               {/* <Paper style={{ backgroundColor: "red" }}>{data.name}</Paper> */}
-              <img
-                style={{ width: "100%" }}
-                src={data.image}
-                alt={data.name}
-              ></img>
+              <div className="image">
+                <img
+                  style={{ width: "100%" }}
+                  src={data.image}
+                  alt={data.name}
+                ></img>
+              </div>
               <button className="btn primaryButton">{data.name}</button>
             </Grid>
           ))}
