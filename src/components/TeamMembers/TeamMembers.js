@@ -12,10 +12,10 @@ const TeamMembers = () => {
             items: 1,
         },
         450: {
-            items: 2,
+            items: 1,
         },
         600: {
-            items: 3,
+            items: 2,
         },
         1000: {
             items: 4,
@@ -25,7 +25,7 @@ const TeamMembers = () => {
     return (
         <section className='team-member'>
             <h3 className>OUR CORE TEAM MEMBERS</h3>
-            <OwlCarousel responsive={responsiveObject} dots={true} items={4} center autoplay autoplaySpeed={1000} slidetransition={'linear'} autoplayTimeout={4000} loop mouseDrag margin={10}>
+            <OwlCarousel responsive={responsiveObject} items={4} dots={false} center autoplay autoplaySpeed={1000} slidetransition={'linear'} autoplayTimeout={4000} loop mouseDrag margin={10}>
                 <div className='item'>
                     <div className='carousel-item'>
                         <img src={demoImage} alt="" />
