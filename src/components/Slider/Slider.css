@@ -1,5 +1,6 @@
 .slider {
   position: relative;
+  z-index: 99;
 }
 .user_icon {
   position: absolute;

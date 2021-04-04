@@ -1,0 +1,32 @@
+
+
+.primaryButton{
+    border: none;
+    display: flex;
+    margin-top: 10px;
+    padding: 8px 0px;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+    width: 100%;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.primaryButton:hover{
+    background-color: rgb(3, 75, 75);
+}
+.grid-section .image{
+overflow: hidden;
+}
+.grid-section img{
+    transition: 0.4s ease-in-out;
+}
+.grid-section:hover img{
+transform: scale(1.1);
+}
