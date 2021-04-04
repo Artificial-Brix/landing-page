@@ -44,8 +44,8 @@
   float: left;
   font-weight: 700;
 }
-.navbar_ul li a:hover {
-  color: #ddd;
+.navbar_ul li a:hover, .navbar_ul li a:focus {
+  color: #6163FF;
 }
 .nav_item {
   text-decoration: none;

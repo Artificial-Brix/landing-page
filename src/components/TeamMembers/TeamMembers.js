@@ -24,7 +24,7 @@ const TeamMembers = () => {
 
     return (
         <section className='team-member'>
-            <h3 className>OUR CORE TEAM MEMBERS</h3>
+            <h1>OUR CORE TEAM MEMBERS</h1>
             <OwlCarousel responsive={responsiveObject} dots={true} items={4} center autoplay autoplaySpeed={1000} slidetransition={'linear'} autoplayTimeout={4000} loop mouseDrag margin={10}>
                 <div className='item'>
                     <div className='carousel-item'>
